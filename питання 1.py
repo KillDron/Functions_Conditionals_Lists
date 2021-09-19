@@ -1,10 +1,5 @@
-def mysort(mylist=[], numflag=False):
-    L = []
-    if numflag == False:
-        for i in mylist:
-            L.append(str(i))
-        print(sorted(L))
-    elif numflag == True:
-        for i in mylist:
-            L.append(int(i))
-        print(sorted(L))
+a = int(input('Length in centimeters:'))
+if a < 0:
+    print('The entry is invalid')
+if a > 0:
+    print('Inch≈:',round((a/2.54),2))
