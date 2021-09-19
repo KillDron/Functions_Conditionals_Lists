@@ -1,4 +1,4 @@
-def mysort(mylist=[], numflag=False)
+def mysort(mylist=[], numflag=False):
     L = []
     if numflag == False:
         for i in mylist:
@@ -7,4 +7,4 @@ def mysort(mylist=[], numflag=False)
     elif numflag == True:
         for i in mylist:
             L.append(int(i))
-        print(sorted(L)
+        print(sorted(L))
