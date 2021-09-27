@@ -9,5 +9,5 @@ def sumDigits(n):
     return sum
  
  
-n = int(input("Write your number"))
+n = int(input("Write your 4-digit number:"))
 print(sumDigits(n))
