@@ -1,4 +1,4 @@
-items=int(input())
+items=int(input('How many items are you buying?:'))
 total=0
 if 0<items<10:
     total = items*12
