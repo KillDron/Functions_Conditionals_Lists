@@ -1,10 +1,10 @@
-def mysort(mylist=[], numflag=False):
-    L = []
+list=['one', 'two', 'three', 'four', 'five']
+def mysort(mylist = [], numflag = False):
     if numflag == False:
-        for i in mylist:
-            L.append(str(i))
-        print(sorted(L))
-    elif numflag == True:
-        for i in mylist:
-            L.append(int(i))
-        print(sorted(L))
+        mylist.sort(key = lambda x: x[0])
+    else:
+        mylist.sort(key = len)
+    return print(mylist)
+mysort(list)
+mysort(list, True)
+print('DONE')
